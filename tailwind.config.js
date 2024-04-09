@@ -1,0 +1,90 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "background-background-primary": "#fff",
+        "default-grey": "#b8b8b8",
+        royalblue: "#5f69c7",
+        "default-color-primary": "#dc5b19",
+        "default-color-primary-light": "#ffece2",
+        "background-grey-light": "#f7f7f7",
+        "text-text-dark": "#1a0a03",
+        "secondary-gray": "#5d5e60",
+        "text-text-dark-secondary": "#767676",
+        gainsboro: "#dedede",
+        "accent-danger-accent": "#cc2610",
+        tomato: "#f24d36",
+        "accent-accent-success": "#00a441",
+        mediumseagreen: "#1abd5c",
+        honeydew: "#d7ffe7",
+        paleturquoise: "#bde6cf",
+        "accent-ongoing-accent": "#f1ae11",
+        mistyrose: "#f4d8d8",
+        silver: "#dbbfbf",
+        gray: {
+          "100": "#858585",
+          "200": "rgba(133, 133, 133, 0.09)",
+        },
+        "background-background-secondary": "#f0f0f0",
+      },
+      spacing: {
+        mediium: "12px",
+        regular1: "8px",
+        small: "20px",
+        mediium1: "12px",
+        smaller: "16px",
+        small1: "4px",
+        small2: "4px",
+        smaller2: "16px",
+        smaller3: "2px",
+        normal: "24px",
+        "very-big": "24px",
+        "device-padding": "20px",
+        normal1: "24px",
+        smaller4: "16px",
+        bigger: "48px",
+      },
+      fontFamily: {
+        "button-button-text-secondary": "'Encode Sans Expanded'",
+        "text-description-text": "Montserrat",
+      },
+      borderRadius: {
+        xl: "20px",
+        "12xs-5": "0.5px",
+        regular: "12px",
+        regular1: "8px",
+        small: "20px",
+        smaller2: "16px",
+        big: "24px",
+      },
+    },
+    fontSize: {
+      xs: "12px",
+      "3xs": "10px",
+      base: "16px",
+      sm: "14px",
+      "5xl": "24px",
+      lgi: "19px",
+      "13xl": "32px",
+      inherit: "inherit",
+    },
+    screens: {
+      mq925: {
+        raw: "screen and (max-width: 925px)",
+      },
+      mq700: {
+        raw: "screen and (max-width: 700px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};

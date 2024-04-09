@@ -1,10 +1,11 @@
 import './App.css'
+import LUS from './LUS'
 
 function App() {
 
   return (
     <>
-      <div>Nami</div>
+      <LUS />
     </>
   )
 }
